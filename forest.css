@@ -1,0 +1,148 @@
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:green;
+    }
+    
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: black;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  /*#pics {
+    border: hidden;
+    padding: 200px, 2000px, 100px, 500px;
+  } */ 
+
+  .top-left {
+    position: absolute;
+    top: 80px;
+    left: 16px;
+    color: rgb(19, 19, 80);
+    font-size: xx-large;
+  }
+
+  .top-left1 {
+    position: absolute;
+    top: 500px;
+    left: 16px;
+    color: purple;
+    font-size: 20px;
+  }
+
+
+  .donation-table {
+    position: absolute;
+    right: 16px;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px; 
+    background-color: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .donation-table td {
+    padding: 5px;
+    text-align: center;
+  }
+
+  
+  .donation-table td button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(77, 87, 19, 0.932);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .donation-table td button:hover {
+    background-color: green;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .large-button {
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+    background-color: #34C759;
+    color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: wself 4s;
+  }
+  @keyframes wself {
+    0% {color: purple;}
+    25% {color: yellow;}
+    50% {color: brown;}
+    75% {color: purple;}
+    100% {color: greenyellow;}
+
+  }
+
+  .large-button:hover {
+    background-color: #2e865f;
+  }
+
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .intro p {
+    border: 10px black;
+    padding: 20px;
+    height: 100px;
+    width: 60%;
+    background-color: #abe2c9;
+  }
+
+  .intro1 {
+    border: hidden 10px;
+    margin: 10px;
+    position: absolute;
+    top: auto;
+    width: 430px;
+    height: auto;
+    right: 0px;
+  }
+    
+
+  
+  #orgstr {
+    padding: 10px;
+    align-items: center;
+    color: darkcyan;
+    margin: 10px;
+    position: absolute;
+    top: 20000px;
+    left: 0px;
+    width: 75%;
+    height: auto;
+  }
+  
